@@ -30,6 +30,9 @@ You can install most of these libraries using `pip` or `conda`.
 
 ```bash
 pip install numpy pandas umap-learn matplotlib pycaret scikit-learn scipy lightgbm imbalanced-learn torch
+```
 
+## Challenges
+The selection of the parameters used in the proposed method is crucial to the correct process of data overproduction. The user must always think carefully about the value of n_neighbors, min_dist and radius. The additional data produced in this way should not exceed 1/3 of the newly created data set.
 
 
