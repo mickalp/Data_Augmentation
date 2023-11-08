@@ -4,6 +4,8 @@ https://www.tandfonline.com/doi/full/10.1080/17435390.2023.2268163
 
 **Goal:** Increase the amount of data to improve regression results.
 
+**Stabel Version:** jupyter notebook file
+
 ## Key features:
 * Genereting artificial data based on UMAP -> convex hull -> poisson sampling methodolgy
 * Number of generated data are dependent on radius set in poisson_disc_sampling(radius=0.1). Typically radius should be in range between 0.05 and 0.5.
